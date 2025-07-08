@@ -42,7 +42,7 @@ public class crossbrowsertest {
   @Test
   public void first() {
 	// Implicitly wait for 10 seconds
-	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	 driver.get("http://www.citi.com"); 
 	 String act=driver.getTitle();
 	 String ect="citi";

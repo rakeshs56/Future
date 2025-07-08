@@ -39,7 +39,7 @@ public class Webdriverutilitymethods {
 	
    public void waitUntilPageLoad(WebDriver driver)
    {
-	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+	//driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	
    }
    public void clearmethod(WebElement element)

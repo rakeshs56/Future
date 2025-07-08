@@ -84,7 +84,7 @@ public class Base {
 
         Log.info(browserName + " initialized");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Log.info("Browser window maximized and implicit wait set");
 
         Filelibe fl = new Filelibe();
